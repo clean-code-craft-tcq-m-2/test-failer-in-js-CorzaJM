@@ -8,7 +8,7 @@ function print_color_map() {
     for (let i = 0; i < majorColors.length; i++) {
         for (let j = 0; j < minorColors.length; j++) {
             colors.push(`${i * 5 + j} | ${majorColors[i]} | ${minorColors[j]}`)
-            console.log(push[i]);
+            console.log(colors[i]);
         }
     }
     return majorColors.length * minorColors.length;
