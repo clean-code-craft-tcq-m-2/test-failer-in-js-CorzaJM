@@ -16,7 +16,7 @@ function print_color_map() {
 
 result = print_color_map();
 expect(result).equals(25);
-for(let x = 1; x < colors.length(); x++){
-    expect(colors[x-1].length()).equals(colors[x].length());
+for(let x = 1; x < colors.length; x++){
+    expect(colors[x-1].length).equals(colors[x].length);
 }
 console.log('All is well (maybe!)');
